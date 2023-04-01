@@ -61,7 +61,7 @@ const About=()=>{
                 <div className='venue2'>
                     <h2>Venue</h2>
                     <h3>Green View Resort</h3>
-                    <div>Sehora Road, Thakurdwara, Distt.  Moradabad</div>
+                    <div>Seohara Road, Thakurdwara, Distt.  Moradabad</div>
                 </div>
         </div>
         <div>
