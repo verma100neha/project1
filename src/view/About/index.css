@@ -20,3 +20,25 @@
     width: 80%;
     height: 250px;
 }
+.venue{
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -118%);
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px #edebf3;
+    text-align: center;
+}
+.venue2{
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-53%, -106%);
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px #edebf3;
+    text-align: center;
+}

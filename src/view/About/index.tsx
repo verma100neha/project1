@@ -6,7 +6,9 @@ import shilpa from '../../Assets/Images/shilpa.jpg'
 import four from '../../Assets/Images/four.jpg'
 import five from '../../Assets/Images/five.jpg'
 import sagai from '../../Assets/Images/sagai.jpg'
-import lagan from '../../Assets/Images/lagan.png'
+import thanku from '../../Assets/Images/thanku.png'
+import venue1 from '../../Assets/Images/venue1.webp'
+import venue2 from '../../Assets/Images/venue2.webp'
 import './index.css'
 
 const About=()=>{
@@ -33,8 +35,17 @@ const About=()=>{
                 <img src={sagai} alt="ring" className='func-image'/>
             </div>
             <div>
-                <h2>16 April- Lagan</h2>
-                <img src={lagan} alt='lagan' className='func-image'/>
+                <h2>16 April- Tilakotsav</h2>
+                {/* <img src={lagan} alt='lagan' className='func-image'/> */}
+            </div>
+            <div>
+                <img src={venue1} alt='lagan' className='func-image' style={{opacity: '0.6', position: 'relative', marginTop: '30px'}}/>
+                <div className='venue'>
+                    <h2>Venue</h2>
+                    <h3>Sai Banquet Hall</h3>
+                    <div>Gajraula Road, Near Global School</div>
+                    <div>Mandi Dhanaura, Distt. Amroha</div>
+                </div>
             </div>
         </div>
         <div style={{position: 'relative', marginTop: '30px'}}>
@@ -45,6 +56,17 @@ const About=()=>{
                 <div style={{color: 'white', textShadow: '5px 5px 5px black', fontSize: '30px' }}>YOU ARE INVITED!!</div>
             </div>  
         </div> 
+        <div className='container2'>
+                <img src={venue2} alt='lagan' className='func-image' style={{opacity: '0.6', position: 'relative', marginTop: '30px'}}/>
+                <div className='venue2'>
+                    <h2>Venue</h2>
+                    <h3>Green View Resort</h3>
+                    <div>Sehora Road, Thakurdwara, Distt.  Moradabad</div>
+                </div>
+        </div>
+        <div>
+            <img src={thanku} alt="Thank You" style={{width: '100%', margin: '30px 0'}}/>
+        </div>
         </>
     )
 }
